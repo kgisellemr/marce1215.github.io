@@ -1,0 +1,78 @@
+/* style.css */
+* {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+    }
+
+header{
+        text-align: center;
+        text-transform: capitalize;
+
+}
+.banner {
+        background-image: url("../imgs/bg-header.jpg");
+        height: 60vh;
+        background-repeat: no-repeat;
+    }
+
+section {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        /* align-items: center; */
+        margin: 0 2rem;
+        padding: 1rem;
+    }
+    section article {
+        padding: 30px;
+        width: 50%;
+        font-size: 18px;
+    }
+    section figure {
+        background-image: url("../imgs/iguana-1.jpg");
+        float: left;
+        height: 450px;
+        width: 450px;
+        padding-top: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .card{
+        justify-content: space-around;
+        display:flex;
+        align-items: center;
+        font-size: 20px;
+
+
+    }
+    .textos {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+       h2{
+        text-align: center;
+       }
+       
+    .fotos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       gap: 1rem;
+       margin-bottom: 20px;
+    }
+    img{
+        width: 30%;
+        height: 250px;
+    
+    }
+    
+
+ footer{
+        text-align: center;
+        text-transform: capitalize;
+}
