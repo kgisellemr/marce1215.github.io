@@ -17,20 +17,31 @@
  margin-bottom: 20px;
 }*/
 
-.navbar{
-  background-color:rgb(71,238,0);
+.enc{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.card{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
-.container{
-  background-color:rgb(71,238,0);
+.navbar{
+  background-color:rgb(0, 225, 255);
+}
+
+.container-fluid{
+  background-color:rgb(0, 225, 255);
+  
 }
 
 .formulario{
-  background-color:rgb(71,238,0);
+  background-color:rgb(0, 225, 255);
 }
 
 .textoprecio{
-  text-decoration-color: rgb(47, 0, 255);
+  text-decoration-color: rgb(0, 225, 255);
 }
 
  .navbar-expand-lg{
@@ -40,3 +51,7 @@
 .spacer{
   flex:1 1 auto;
   } 
+
+  .mt-n1 {
+    margin-top: 1rem !important;
+  }
